@@ -1,0 +1,39 @@
+@import '../../shared-styles/mixins.scss';
+
+.custom-holder {
+    display: flex;
+    flex-direction: column;
+
+    form {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+
+        // label above the input
+        label {
+            display: flex;
+        }
+    }
+}
+
+.form-group {
+    margin-right: 2rem;
+}
+
+.added-animals {
+    display: flex;
+    flex-direction: column;
+    color: $animal;
+}
+
+.submit-btn {
+    margin-top: 1.9rem;
+}
+
+// disabled submit button
+.ng-invalid {
+    .submit-btn {
+        background-color: $sun;
+    }
+}

@@ -1,0 +1,34 @@
+<div class="content-holder" style="background-image:url('../assets/images/main-background.png');">
+
+  <header class="nav-holder"> 
+  
+   <!--  Navigation bar -->
+    <nav> 
+        <ul class="navbar-nav mr-auto">
+  
+          <li class="nav-link active main-page">
+            <a [routerLink]="['main']"> Main Animals</a>
+          </li>
+  
+          <li class="nav-link custom-page">
+            <a [routerLink]="['custom']"> Custom Animals</a>
+          </li>
+        </ul>
+    </nav>
+  
+    <!-- Main header image -->
+    <div class="logo">
+      <img src="../assets/images/logo.png">
+    </div>
+  </header>
+  <!-- *** END Header *** -->
+  
+  <!-- *** Display content *** -->
+  <main class="main-content">
+  
+    <router-outlet></router-outlet>
+  
+  </main>
+  <!-- *** END Main *** -->
+
+</div>

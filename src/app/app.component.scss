@@ -1,0 +1,65 @@
+@import '../shared-styles/mixins.scss';
+
+// full page background 
+::ng-deep body,
+::ng-deep html {
+  height:100%;
+  margin: 0;
+}
+
+.content-holder {
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 100%;
+}
+
+
+/* ** Navigation style ** */
+.logo {
+    width: 750px;
+    margin: -1rem auto;
+
+    img {
+        width: 750px;
+    }
+}
+
+nav {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    margin-right: 3rem;
+    color: $black;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+
+    a {
+        color: $black;
+        width: 150px;
+        padding: 9px 19px;
+    }
+}
+
+.main-page {
+    background-color: $green;
+}
+
+.custom-page {
+    background-color: $yellow;
+    margin-left: 7rem;
+}
+
+
+/* ** Content style ** */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: -1rem;
+}
+

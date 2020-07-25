@@ -1,0 +1,50 @@
+@import '../../shared-styles/mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+.main-animals-holder {
+    
+    form {
+        display: flex;
+        width: 53%;
+        margin: -1.8rem auto;
+
+        input {
+            width: 0px;
+            height: 0px;
+            opacity: 0;
+        }
+    }
+
+    img {
+        width: 80px;
+        height: auto;
+    }
+}
+
+.validator-text {
+    width: 46%;
+    margin: 0 auto;
+    color: $dark-green;
+    text-align: center;
+}
+
+.form-item {
+    display: inline-flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 2rem 0;
+    align-items: center;
+}
+
+.animal-text {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    color: $black;
+}
+
+.animal-type-text {
+    margin-top: -1rem;
+}
+
+

@@ -1,0 +1,29 @@
+<div class="main-animals-holder">
+ <!-- add the validator for selected animal -->
+    <div class="validator-text" *ngIf="minAnimalsValidator"> Select an animal to see the song and deselect it to try with another one </div>
+
+    <form [formGroup]="form">
+        <!-- form array of checkboxes -->
+        <label 
+            formArrayName="animals" 
+            *ngFor="let animal of animalsFormArray.controls; let i = index"
+            class="form-item label">
+
+            <!-- display the image of each animal -->
+            <img [src]="animalsData[i].image" alt="{{ animalsData[i].type }}">
+            
+            <div class="animal-text">
+                <input type="checkbox" 
+                        [formControlName]="i" 
+                        (change)="getSelectedAnimals()"/><p class="animal-type-text">{{ animalsData[i].type }}<p>
+            </div>
+            
+        </label>
+    </form>
+
+
+    <!-- Display the lyrics for the selected animal -->
+    <div class="lyrics-holder"></div>
+
+</div>
+

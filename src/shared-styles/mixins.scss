@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+$main-font: 'Rowdies', cursive;
+
+/* ** Main colors ** */
+$black: #000;
+$white: #fff;
+$green: #b6ce5d;
+$dark-green: #119b73;
+$red: #E60004;
+$dark-p: #333333;
+$yellow: #fab41c;
+$blue: #2bc0cd;
+$pink: #f17c60;
+$sun: #fd8d09;
+$light-red: #ec4e31;
+$animal: #951700;
+
+
+/* ** Main lyrics style ** */
+.lyrics-holder {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+    color: $black;
+    position: fixed;
+    top: 42%;
+    left: 40%;
+
+
+   /*  Color the type, sound & the E-I-E-I-O */
+    span {
+        color: $animal;
+    }
+
+    h4 {
+        color: $pink;
+        font-size: 14px;
+    }
+
+    h5 {
+        color: $light-red;
+        font-size: 14px;
+    }
+
+    h6 {
+        color: $sun;
+        font-size: 14px;
+    }
+    
+}
