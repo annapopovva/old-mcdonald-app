@@ -1,27 +1,139 @@
-# OldMacDonaldApp
+# Old Macdonald’s Farm - single page application - Angular 8 #
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+### Functionality ###
 
-## Development server
+Old Macdonald’s Farm is a single page application used to show 5 verses of the nursery rhyme “Old MacDonald Had a Farm” with 5 animals:   
+ 
+{cow: moo},  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+{pig: oink},  
 
-## Code scaffolding
+{duck: quack},   
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+{horse: neigh},   
 
-## Build
+{lamb: baa}   
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The verse is repeated for each animal and the appropriate sound for the animal is used.   
 
-## Running unit tests
+    
+   
+   
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The app  is extended to allow the user to create their own animals and sounds.    
 
-## Running end-to-end tests
+The user can add animals and then the app renders a custom verse for each added animal.   
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Each of the added animals is pushed in a list (the array is stored in session storage) which the user can see and get back to by clicking again on the animal.    
 
-## Further help
+The list is empty when the page has been refreshed.   
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+### Installation & Set-up ###
+
+•	Install Angular CLI globally.   
+
+•	Run `ng serve` for a dev server.   
+
+•	Navigate to http://localhost:4200/.   
+
+•	The app will automatically reload if a change has been made on the source files.    
+
+•	Create two components: animals and custom-animals - run `ng g c component-name` to generate a new component.   
+
+•	Create two model files which export a class for each component.    
+
+•	Animal Component is for the main page of the app which contain the 5 verses of the animals. And the Custom Animals Component is used for animals added by the user.     
+
+•	Two components load data dynamically via ReactiveForms.    
+
+•	Add routing to navigate between pages.   
+
+•	For styling is used SCSS.   
+
+•	Running unit tests - run `ng test`.   
+
+
+
+### Deployment ###
+
+•	Run `ng build` to bundle the code for production.   
+
+•	Add the project to a bitbucket repository.     
+
+•	Deploy the project to Netlify.   
+
+
+
+### Repo owner ###
+*Anna Popova*# Old Macdonald’s Farm - single page application - Angular 8 #
+
+### Functionality ###
+
+Old Macdonald’s Farm is a single page application used to show 5 verses of the nursery rhyme “Old MacDonald Had a Farm” with 5 animals:   
+ 
+{cow: moo},  
+
+{pig: oink},  
+
+{duck: quack},   
+
+{horse: neigh},   
+
+{lamb: baa}   
+
+The verse is repeated for each animal and the appropriate sound for the animal is used.   
+
+    
+   
+   
+
+The app  is extended to allow the user to create their own animals and sounds.    
+
+The user can add animals and then the app renders a custom verse for each added animal.   
+
+Each of the added animals is pushed in a list (the array is stored in session storage) which the user can see and get back to by clicking again on the animal.    
+
+The list is empty when the page has been refreshed.   
+
+
+
+### Installation & Set-up ###
+
+•	Install Angular CLI globally.   
+
+•	Run `ng serve` for a dev server.   
+
+•	Navigate to http://localhost:4200/.   
+
+•	The app will automatically reload if a change has been made on the source files.    
+
+•	Create two components: animals and custom-animals - run `ng g c component-name` to generate a new component.   
+
+•	Create two model files which export a class for each component.    
+
+•	Animal Component is for the main page of the app which contain the 5 verses of the animals. And the Custom Animals Component is used for animals added by the user.     
+
+•	Two components load data dynamically via ReactiveForms.    
+
+•	Add routing to navigate between pages.   
+
+•	For styling is used SCSS.   
+
+•	Running unit tests - run `ng test`.   
+
+
+
+### Deployment ###
+
+•	Run `ng build` to bundle the code for production.   
+
+•	Add the project to a bitbucket repository.     
+
+•	Deploy the project to Netlify.   
+
+
+
+### Repo owner ###
+*Anna Popova*
