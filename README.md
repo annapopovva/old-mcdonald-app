@@ -131,7 +131,7 @@ The list is empty when the page has been refreshed.
 
 •	Add the project to a bitbucket repository.     
 
-•	Deploy the project to Netlify.   
+•	Deploy the project to Netlify. (https://old-mcdonald-app.netlify.app/main)
 
 
 
