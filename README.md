@@ -133,7 +133,7 @@ The list is empty when the page has been refreshed.
 
 •	Deploy the project to Netlify. (https://old-mcdonald-app.netlify.app/main)
 
-
+<img src="https://github.com/annapopovva/old-mcdonald-app/blob/master/screenshots/2020-07-25%20(1).png"> 
 
 ### Repo owner ###
 *Anna Popova*
