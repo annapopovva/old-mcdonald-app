@@ -65,10 +65,6 @@ The list is empty when the page has been refreshed.
 •	Deploy the project to Netlify.   
 
 
-
-### Repo owner ###
-*Anna Popova*# Old Macdonald’s Farm - single page application - Angular 8 #
-
 ### Functionality ###
 
 Old Macdonald’s Farm is a single page application used to show 5 verses of the nursery rhyme “Old MacDonald Had a Farm” with 5 animals:   
@@ -143,5 +139,6 @@ The list is empty when the page has been refreshed.
 <img src="https://github.com/annapopovva/old-mcdonald-app/blob/master/screenshots/2020-07-25%20(1).png">   
 <img src="https://github.com/annapopovva/old-mcdonald-app/blob/master/screenshots/2020-07-25%20(3).png">
 
+
 ### Repo owner ###
-*Anna Popova*
+*Anna Popova*# Old Macdonald’s Farm - single page application - Angular 8 #
